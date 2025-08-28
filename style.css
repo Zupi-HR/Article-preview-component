@@ -190,6 +190,14 @@ body {
     border-radius: 50%;
 }
 
+.article-card__footer.is-active .article-card__share-button {
+    background-color: var(--clr-grey-500);
+}
+
+.article-card__footer.is-active .article-card__share-button img {
+    filter: brightness(0) invert(1);
+}
+
 .share-tooltip {
     display: none;
 }
