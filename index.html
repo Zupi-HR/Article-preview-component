@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <article class="article-card">
+      <div class="article-card__image-container"> </div>
+      <div class="article-card__content">
+        <h1 class="article-card__title">
+          Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home
+        </h1>
+        <p class="article-card__excerpt">
+          Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.
+        </p>
+      </div>
+      <footer class="article-card__footer">
+        <img src="images/avatar-michelle.jpg" class="article-card__avatar" alt="Portrait of Michelle Appleton">
+        <div class="article-card__meta">
+          <p class="article-card__author-name">Michelle Appleton</p>
+          <p class="article-card__date"><time datetime="2020-06-28">28 Jun 2020</time></p>
+        </div>
+        <div class="share-tooltip" id="share-tooltip">
+          <span class="share-tooltip__label">Share</span>
+          <a href="#" aria-label="Share on Facebook"><img src="images/icon-facebook.svg" alt=""></a>
+          <a href="#" aria-label="Share on Twitter"><img src="images/icon-twitter.svg" alt=""></a>
+          <a href="#" aria-label="Share on Pinterest"><img src="images/icon-pinterest.svg" alt=""></a>
+        </div>
+        <button class="article-card__share-button" aria-label="Share this article">
+          <img src="images/icon-share.svg" aria-hidden="true" alt="">
+        </button>
+      </footer>
+    </article>
+  </main>
+
+</body>
+
+</html>
